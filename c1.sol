@@ -17,7 +17,7 @@ abstract contract ERC20Token {
     event Approval(address indexed _owner, address indexed _spender, uint256 _value);
 }
 
-contract Owned {
+contract Owned { 
     address public owner;
     address public newOwner;
 
